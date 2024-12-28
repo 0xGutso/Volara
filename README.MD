@@ -2,17 +2,9 @@
 
 ``` 
 sudo apt-get update
-```
-``` 
 sudo apt-get install ca-certificates curl
-```
-``` 
 sudo install -m 0755 -d /etc/apt/keyrings
-```
-``` 
 sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
-```
-``` 
 sudo chmod a+r /etc/apt/keyrings/docker.asc
 ```
 
@@ -22,6 +14,11 @@ Direkt olarak linki yapıştırıyoruz
 
 ```
 [ -f "volara.sh" ] && rm volara.sh; curl -s -o volara.sh https://raw.githubusercontent.com/volaradlp/minercli/refs/heads/main/run_docker.sh && chmod +x volara.sh && ./volara.sh
+```
+
+Ekran görüntüleme 
+```
+screen -S volara
 ```
 
 Burner cüzdanımızın private keyini giriyoruz
